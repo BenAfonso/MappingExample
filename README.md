@@ -26,14 +26,14 @@ python -m SimpleHTTPServer
 
 Then you should be able to visit http://localhost:8000
 
-** Method 2**
+**Method 2**
 
 Just open **'index.html'** with your Web-browser (Chrome, Firefox, ..)
 
 
 ### Running the server
 
-**Don't forget to run the server !
+**Don't forget to run the server !**
 
 ```
 $ cd Server
