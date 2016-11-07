@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Mobytick spatial</title>
+        
+        <meta charset="UTF-8">
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/1.6.19/go.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.7.0/ol.css" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.7.0/ol.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+        <script src="https://cdn.rawgit.com/konvajs/konva/1.2.2/konva.min.js"></script>
+        
+        
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <!-- For drawing on map -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.0/leaflet.draw.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.0/leaflet.draw.js"></script>
+        
+	
+        <style>
+            #map { height: 500px; }
+            
+            .legend {
+                line-height: 18px;
+                color: #555;
+            }
+            .legend i {
+                width: 18px;
+                height: 18px;
+                float: left;
+                margin-right: 8px;
+                opacity: 0.7;
+            }
+            
+            .info {
+                padding: 6px 8px;
+                font: 14px/16px Arial, Helvetica, sans-serif;
+                background: white;
+                background: rgba(255,255,255,0.8);
+                box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                border-radius: 5px;
+            }
+            .info h4 {
+                margin: 0 0 5px;
+                color: #777;
+            }
+            
+            .leaflet-container {
+                background: #d3d8ff;
+            }
+        </style>
+    </head>
+    
+	<body>
+	
+        
+        
+        <div id="map"></div>
+        
+        <button id="fetchData">Fetch data (Refresh)</button>
+        Etat: <span id="dataState"></span>
+        <script src="main.js"></script>
+
+	</body>
+
+</html>
